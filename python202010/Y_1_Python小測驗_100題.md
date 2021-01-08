@@ -7,6 +7,9 @@
 ________("Hello, Python!")
 
 (A) print   (B) printf   (C) printline   (D) printn
+
+**print("Hello, Python!") A**
+
 ```
 ```
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
@@ -16,6 +19,8 @@ __這是一行註解
 print("Hello, Python!")
 
 (A)	/   (B) -   (C) #   (D) <!-->
+
+#這是一行註解 C
 ```
 ```
 3.要新建一個變數名稱為school，並將變數值設定為ksu，底下程式需填入:
@@ -25,6 +30,8 @@ print("Hello, Python!")
 
 (A) (1)ksu，(2)school    (B) (1) school，(2) ksu  
 (C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
+
+school = "ksu" B
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
@@ -35,6 +42,9 @@ print(______(y))
 
 (A) str   (B) sum   (C) int   (D)type
 
+y = 65535
+print(type(y)) D
+
 ```
 ```
 5.試問以下程式執行後輸出什麼:
@@ -44,6 +54,9 @@ y = 65535
 print(type(y))
 
 (A) <class 'int'>  (B) <class 'str'>  (C) <class 'float'>  (D) <class 'tuple'>
+
+A
+
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
@@ -53,6 +66,10 @@ x = 65535
 ______(x)
 
 (A) long   (B) str   (C) float   (D)int
+
+x = 65535
+float(x)  C
+
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
@@ -62,6 +79,9 @@ string1 = "Hello, Python!"
 print(___________(string1))
 
 (A) find   (B) len   (C) count   (D)replace
+
+C
+
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
@@ -70,6 +90,9 @@ print(___________(string1))
 print(100 < 200)
 
 (A) False   (B) True   (C) 100   (D) 200
+
+B
+
 ```
 # 2.資料型態及其運算 DataType
 ```
